@@ -1,0 +1,21 @@
+{
+  "short_name": "BeaMap",
+  "name": "BeaMap",
+  "icons": [
+    {
+      "src": "/beamap-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/beamap-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "theme_color": "#FFFFFF",
+  "orientation": "portrait-primary"
+}
