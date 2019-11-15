@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "start": "vue-cli-service build && node src/server/main.js",
+    "start": "node src/server/main.js",
     "lint": "vue-cli-service lint",
     "devbuild": "vue-cli-service build --mode development --watch",
     "devserver": "nodemon src/server/main.js"
