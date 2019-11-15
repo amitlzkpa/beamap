@@ -2,6 +2,9 @@
   "name": "ct",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "8.16.0"
+  },
   "scripts": {
     "postinstall": "if test \"$NODE_ENV\" = \"production\" ; then npm run build ; fi ",
     "serve": "vue-cli-service serve",
