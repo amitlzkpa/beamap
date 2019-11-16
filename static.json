@@ -2,6 +2,7 @@
   "root": "dist",
   "clean_urls": true,
   "routes": {
-    "/": "index.html"
+    "/": "index.html",
+    "/mapbox_token": "/mapbox_token"
   }
 }
