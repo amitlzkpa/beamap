@@ -2,6 +2,9 @@
   "root": "dist",
   "clean_urls": true,
   "routes": {
-    "/": "index.html"
+    "/": "index.html",
+    "/manifest.json": "manifest.json",
+    "/FileSaver.js": "/FileSaver.js",
+    "seedrandom.min.js": "seedrandom.min.js"
   }
 }

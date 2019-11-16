@@ -348,10 +348,12 @@ export default {
     let flsv_rsrc = await fetch("/FileSaver.js");
     let flsv_text = await flsv_rsrc.text();
     eval.apply(window, [flsv_text]);
+    console.log(flsv_text);
     let seed_rsrc = await fetch("/seedrandom.min.js");
     let seed_text = await seed_rsrc.text();
     eval.apply(window, [seed_text]);
     Math.seedrandom("TechToProtect");
+    console.log(seed_text);
   },
   methods: {
     load: async function() {
