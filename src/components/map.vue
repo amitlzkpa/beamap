@@ -34,11 +34,7 @@ export default {
   methods: {
 
     resetMap: async function(options) {
-      let res = await fetch('/mapbox_token');
-      console.log(res);
-      let mapbox_token = await res.text();
-      console.log(mapbox_token);
-      mapboxgl.accessToken = mapbox_token;
+      mapboxgl.accessToken = 'pk.eyJ1IjoiYW1pdGx6a3BhIiwiYSI6ImNpZmN6ZW12ZzRvYTFzeG03ZDdkNzd5d2oifQ.FxgL_waU-ZRhhtQdeOvtcA';
       map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/amitlzkpa/ck2ikd9lo30ay1cter48jeo3u',
