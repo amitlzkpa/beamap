@@ -35,7 +35,9 @@ export default {
 
     resetMap: async function(options) {
       let res = await fetch('/mapbox_token');
+      console.log(res);
       let mapbox_token = await res.text();
+      console.log(mapbox_token);
       mapboxgl.accessToken = mapbox_token;
       map = new mapboxgl.Map({
         container: 'map',
