@@ -4,7 +4,7 @@
   "routes": {
     "/": "index.html",
     "/manifest.json": "manifest.json",
-    "/FileSaver.js": "/FileSaver.js",
-    "seedrandom.min.js": "seedrandom.min.js"
+    "/FileSaver.js": "FileSaver.js",
+    "/seedrandom.min.js": "seedrandom.min.js"
   }
 }
